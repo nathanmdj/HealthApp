@@ -11,6 +11,5 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".storybook/stories/**/*.stories.tsx"
   ]
 }
