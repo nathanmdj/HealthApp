@@ -27,13 +27,16 @@
       "permissions": [
         "android.permission.health.READ_STEPS",
         "android.permission.health.READ_FLOORS_CLIMBED",
-        "android.permission.health.READ_DISTANCE"
+        "android.permission.health.READ_DISTANCE",
+        "android.permission.health.READ_ACTIVE_CALORIES_BURNED"
       ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      "react-native-health",
+      "expo-health-connect",
       [
         "expo-build-properties",
         {
@@ -43,8 +46,7 @@
             "minSdkVersion": 26
           }
         }
-      ],
-      "expo-health-connect"
+      ]      
     ]
   }
 }

@@ -2,7 +2,7 @@ import { View, Text } from '@/designs/core';
 
 interface CounterStatsProps {
   label: string
-  value: number
+  value: string
   unit?: string
 }
 const CounterStats = ({label, value, unit}: CounterStatsProps) => {
